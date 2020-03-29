@@ -1,0 +1,12 @@
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\bin\Release\DecisionSupport.exe.config
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\bin\Release\DecisionSupport.exe
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\bin\Release\DecisionSupport.pdb
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.csprojAssemblyReference.cache
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.Properties.Resources.resources
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.csproj.GenerateResource.cache
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.exe
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.pdb
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.MainForm.resources
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.InitialDataForm.resources
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.DataInputForm.resources
+D:\Study\4sem\Беллман-Заде\DecisionSupport\DecisionSupport\obj\Release\DecisionSupport.NameInputForm.resources
