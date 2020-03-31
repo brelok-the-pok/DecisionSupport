@@ -32,45 +32,30 @@ namespace DecisionSupport
         {
             InitializeComponent();
 
-            Text = "Система помощи в принятии решений";
+            Text = "Система выбора решений по управлению имущественным комплексом муниципального образования";
             StartPosition = FormStartPosition.CenterScreen;
 
             ToolStripMenuItem fileItem = new ToolStripMenuItem("Модель");
-            ToolStripMenuItem aboutItem = new ToolStripMenuItem("О программе");
 
             ToolStripMenuItem createItem = new ToolStripMenuItem("Создать");
             ToolStripMenuItem saveItem = new ToolStripMenuItem("Сохранить");
             ToolStripMenuItem openItem = new ToolStripMenuItem("Открыть");
 
-            fileItem.DropDownItems.Add(createItem);
-            fileItem.DropDownItems.Add(saveItem);
-            fileItem.DropDownItems.Add(openItem);
-
             createItem.Click += CreateItem_Clicked;
             saveItem.Click += SaveItem_Clicked;
             openItem.Click += OpenItem_Clicked;
-            aboutItem.Click += AboutItem_Clicked;
+
             Application.ApplicationExit += new EventHandler(this.OnApplicationExit);
 
-            menuStrip1.Items.Add(fileItem);
-            menuStrip1.Items.Add(aboutItem);
+            menuStrip1.Items.Add(createItem);
+            menuStrip1.Items.Add(saveItem);
+            menuStrip1.Items.Add(openItem);
 
             matrixACreated = false;
         }
 
 
         //Обаботчики кнопоко верхнего меню
-        private void AboutItem_Clicked(object sender, EventArgs e)
-        {
-            MessageBox.Show("" +
-                "Данная программа является системой\r\n" +
-                "поддержки принятия решений и была\r\n" +
-                "создана в качестве семестровой работы\r\n" +
-                "по предмету Системы Поддержки Принятия Решений\r\n" +
-                "студентом третьего курса ВолгГТУ\r\n" +
-                "Толочёк Юрием Юрьевичем",
-                "О программе", MessageBoxButtons.OK, icon: MessageBoxIcon.Information);
-        }
         private void CreateItem_Clicked(object sender, EventArgs e)
         {
             var initialDataForm = new InitialDataForm();
